@@ -1,0 +1,10 @@
+[package]
+name = "focil-fork-choice"
+version = "0.1.0"
+edition = "2021"
+description = "EIP-7805 FOCIL fork-choice satisfaction check"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+focil-types = { path = "../focil-types" }
+thiserror = { workspace = true }

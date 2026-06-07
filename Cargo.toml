@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "crates/focil-types",
+    "crates/focil-store",
+    "crates/focil-fork-choice",
+]
+resolver = "2"
+
+[workspace.dependencies]
+ethereum_ssz = "0.10.0"
+ethereum_ssz_derive = "0.10.0"
+ssz_types = "0.14.0"
+tree_hash = "0.12.0"
+tree_hash_derive = "0.12.0"
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"

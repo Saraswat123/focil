@@ -1,0 +1,13 @@
+[package]
+name = "focil-types"
+version = "0.1.0"
+edition = "2021"
+description = "EIP-7805 FOCIL core types (InclusionList, SignedInclusionList)"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+ethereum_ssz = { workspace = true }
+ethereum_ssz_derive = { workspace = true }
+ssz_types = { workspace = true }
+tree_hash = { workspace = true }
+tree_hash_derive = { workspace = true }

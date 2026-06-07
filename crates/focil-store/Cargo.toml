@@ -1,0 +1,11 @@
+[package]
+name = "focil-store"
+version = "0.1.0"
+edition = "2021"
+description = "EIP-7805 FOCIL p2p store and validator interface"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+focil-types = { path = "../focil-types" }
+focil-fork-choice = { path = "../focil-fork-choice" }
+thiserror = { workspace = true }
